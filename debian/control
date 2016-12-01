@@ -1,0 +1,25 @@
+Source: pardus-desktops
+Section: metapackages
+Priority: optional
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: http://www.pardus.org.tr
+
+Package: pardus-common-desktop
+Architecture: any
+Depends: ${misc:Depends},
+ dbus-user-session,
+ desktop-base,
+ firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any,
+ pardus-archive-keyring,
+ pardus-x11-settings,
+ plymouth,
+ plymouth-themes,
+ tlp,
+ xserver-xorg-legacy,
+Description: Meta-package with dependencies common to all desktops provided by Pardus
+ This metapackage depends on Pardus packages that should be intalled on all
+ desktop installations of Pardus.
+ .
+ This metapackage is a dependency of all pardus-*-desktop packages.

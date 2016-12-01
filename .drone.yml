@@ -1,0 +1,19 @@
+build:
+  package:
+    image: pardus/pardus-devel
+    volumes:
+      - /tmp/packages:/packages
+    commands:
+      - echo "TODO lintian -i /packages/$(basename $DRONE_REPO)/*.changes"
+      - apt-get update
+      - apt-get install --no-install-recommends dpkg-dev devscripts equivs
+      - mkdir -p build-area
+      - cd build-area
+      - dpkg-source -x /packages/$(basename $DRONE_REPO)/*.dsc build-$(basename $DRONE_REPO)
+      - cd build-$(basename $DRONE_REPO)
+      - mk-build-deps -i -r
+      - dpkg-buildpackage -b -uc
+      - cd ..
+      - cp  -vt /packages/$(basename $DRONE_REPO) debian-installer-images_* *.udeb *.deb *.changes 2>/dev/null || true
+branches:
+  - master
