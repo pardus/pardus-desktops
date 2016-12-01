@@ -1,3 +1,9 @@
+pardus-desktops (2016.1.2) pardus; urgency=medium
+
+  * Fix dependencies for pardus-xfce-desktop package
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Thu, 01 Dec 2016 17:35:39 +0300
+
 pardus-desktops (2016.1.1) pardus; urgency=medium
 
   * Add pardus-xfce-desktop package to control
