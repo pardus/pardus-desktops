@@ -23,3 +23,43 @@ Description: Meta-package with dependencies common to all desktops provided by P
  desktop installations of Pardus.
  .
  This metapackage is a dependency of all pardus-*-desktop packages.
+
+
+Package: pardus-xfce-desktop
+Architecture: any
+Depends: ${misc:Depends},
+ audacious,
+ default-dbus-session-bus | dbus-session-bus,
+ evince-gtk | evince,
+ flashplugin-nonfree,
+ firefox-esr | firefox,
+ gnome-orca,
+ gvfs,
+ gvfs-backends,
+ libreoffice,
+ libreoffice-gtk2,
+ lightdm,
+ light-locker,
+ mousepad,
+ mugshot,
+ network-manager-gnome,
+ pardus-common-desktop,
+ pardus-xfce-settings,
+ software-properties-common,
+ synaptic,
+ system-config-printer,
+ vlc,
+ xfce4,
+ xfce4-goodies,
+ xfce4-mixer,
+ xfce4-places-plugin,
+ xfce4-power-manager,
+ xfce4-power-manager-plugins,
+ xfce4-terminal,
+ xfce4-whiskermenu-plugin,
+ xsane,
+Recommends:
+ libcanberra-gtk3-module,
+ libcanberra-gtk-module
+Description: Xfce based Pardus desktop
+ This metapackage install a Xfce desktop on your Pardus system.
