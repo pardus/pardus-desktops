@@ -17,7 +17,15 @@ Depends: ${misc:Depends},
  plymouth,
  plymouth-themes,
  tlp,
+ xorg,
+ xserver-xorg-input-all,
  xserver-xorg-legacy,
+ xserver-xorg-video-all,
+Recommends:
+ alsa-utils,
+ eject,
+ iw,
+ xdg-utils
 Description: Meta-package with dependencies common to all desktops provided by Pardus
  This metapackage depends on Pardus packages that should be intalled on all
  desktop installations of Pardus.
@@ -31,7 +39,6 @@ Depends: ${misc:Depends},
  audacious,
  default-dbus-session-bus | dbus-session-bus,
  evince-gtk | evince,
- flashplugin-nonfree,
  firefox-esr | firefox,
  gnome-orca,
  gvfs,
