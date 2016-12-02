@@ -14,8 +14,6 @@ Depends: ${misc:Depends},
  firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any,
  pardus-archive-keyring,
  pardus-x11-settings,
- plymouth,
- plymouth-themes,
  tlp,
  xorg,
  xserver-xorg-input-all,
@@ -25,6 +23,8 @@ Recommends:
  alsa-utils,
  eject,
  iw,
+ plymouth,
+ plymouth-themes,
  xdg-utils
 Description: Meta-package with dependencies common to all desktops provided by Pardus
  This metapackage depends on Pardus packages that should be intalled on all
@@ -48,7 +48,6 @@ Depends: ${misc:Depends},
  lightdm,
  light-locker,
  mousepad,
- mugshot,
  network-manager-gnome,
  pardus-common-desktop,
  pardus-xfce-settings,
@@ -66,6 +65,7 @@ Depends: ${misc:Depends},
  xsane,
 Recommends:
  libcanberra-gtk3-module,
- libcanberra-gtk-module
+ libcanberra-gtk-module,
+ mugshot
 Description: Xfce based Pardus desktop
  This metapackage install a Xfce desktop on your Pardus system.
