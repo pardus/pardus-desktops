@@ -1,3 +1,9 @@
+pardus-desktops (2016.1.5) pardus; urgency=medium
+
+  * Add missing dependencies
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 12 Dec 2016 15:33:47 +0300
+
 pardus-desktops (2016.1.4) pardus; urgency=medium
 
   * Rearrange dependencies and recommends
