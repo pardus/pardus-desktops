@@ -36,8 +36,7 @@ Description: Meta-package with dependencies common to all desktops provided by P
 
 Package: pardus-xfce-desktop
 Architecture: any
-Depends: ${misc:Depends},
- audacious,
+Depends: ${misc:Depends}, 
  default-dbus-session-bus | dbus-session-bus,
  evince-gtk | evince, 
  gnome-orca,
@@ -45,6 +44,7 @@ Depends: ${misc:Depends},
  gvfs-backends,
  libreoffice,
  libreoffice-gtk2,
+ libreoffice-l10n-tr,
  lightdm,
  light-locker,
  mousepad,
@@ -65,7 +65,8 @@ Depends: ${misc:Depends},
 Recommends:
  catfish,
  cups,
- geary,
+ icedove,
+ icedove-l10n-tr,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  mugshot,
