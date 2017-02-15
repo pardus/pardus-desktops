@@ -1,3 +1,9 @@
+pardus-desktops (2016.1.6) pardus; urgency=medium
+
+  * Change mail client application geary -> icedove and add Tr language packages
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 15 Feb 2017 10:33:13 +0300
+
 pardus-desktops (2016.1.5) pardus; urgency=medium
 
   * Add missing dependencies
