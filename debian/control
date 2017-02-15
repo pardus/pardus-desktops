@@ -39,6 +39,7 @@ Architecture: any
 Depends: ${misc:Depends}, 
  default-dbus-session-bus | dbus-session-bus,
  evince-gtk | evince, 
+ gnome-disk-utility,
  gnome-orca,
  gvfs,
  gvfs-backends,
