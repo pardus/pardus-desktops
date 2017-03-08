@@ -1,3 +1,9 @@
+pardus-desktops (2017.1.1) pardus; urgency=medium
+
+  * Add some recommends for pardus-kde-desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 08 Mar 2017 15:59:21 +0300
+
 pardus-desktops (2017.1.0) pardus; urgency=medium
 
   * Add metapackage for KDE and arrange recommends section of pardus-xfce-desktop
