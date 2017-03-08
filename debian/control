@@ -82,14 +82,19 @@ Depends: ${misc:Depends},
  kde-standard,
  lightdm, 
  pardus-common-desktop,
- pardus-kde-settings,
+ pardus-kde-settings, 
 Recommends: 
  cups,
  icedove,
  icedove-l10n-tr,
+ k3b,
+ k3b-i18n,
+ kdesudo,
  libreoffice,
  libreoffice-gtk2,
- libreoffice-l10n-tr, 
+ libreoffice-l10n-tr,
+ plasma-nm,
+ system-config-printer,
  vlc
 Description: KDE based Pardus desktop
  This metapackage installs a KDE desktop on your Pardus system.
