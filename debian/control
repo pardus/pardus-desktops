@@ -42,18 +42,13 @@ Depends: ${misc:Depends},
  gnome-disk-utility,
  gnome-orca,
  gvfs,
- gvfs-backends,
- libreoffice,
- libreoffice-gtk2,
- libreoffice-l10n-tr,
+ gvfs-backends, 
  lightdm,
- light-locker,
- mousepad,
+ light-locker, 
  network-manager-gnome,
  pardus-common-desktop,
  pardus-xfce-settings,
  software-properties-common,
- synaptic,
  system-config-printer, 
  xfce4,
  xfce4-goodies,
@@ -70,7 +65,31 @@ Recommends:
  icedove-l10n-tr,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
+ libreoffice,
+ libreoffice-gtk2,
+ libreoffice-l10n-tr,
+ mousepad,
  mugshot,
+ synaptic,
  vlc
 Description: Xfce based Pardus desktop
- This metapackage install a Xfce desktop on your Pardus system.
+ This metapackage installs a Xfce desktop on your Pardus system.
+ 
+ 
+Package: pardus-kde-desktop
+Architecture: any
+Depends: ${misc:Depends}, 
+ kde-standard,
+ lightdm, 
+ pardus-common-desktop,
+ pardus-kde-settings,
+Recommends: 
+ cups,
+ icedove,
+ icedove-l10n-tr,
+ libreoffice,
+ libreoffice-gtk2,
+ libreoffice-l10n-tr, 
+ vlc
+Description: KDE based Pardus desktop
+ This metapackage installs a KDE desktop on your Pardus system.
