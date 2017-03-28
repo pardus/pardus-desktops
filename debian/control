@@ -61,8 +61,6 @@ Depends: ${misc:Depends},
 Recommends:
  catfish,
  cups,
- icedove,
- icedove-l10n-tr,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  libreoffice,
@@ -71,6 +69,8 @@ Recommends:
  mousepad,
  mugshot,
  synaptic,
+ thunderbird,
+ thunderbird-l10n-tr,
  vlc
 Description: Xfce based Pardus desktop
  This metapackage installs a Xfce desktop on your Pardus system.
@@ -84,9 +84,7 @@ Depends: ${misc:Depends},
  pardus-common-desktop,
  pardus-kde-settings, 
 Recommends: 
- cups,
- icedove,
- icedove-l10n-tr,
+ cups, 
  k3b,
  k3b-i18n,
  kdesudo,
@@ -95,6 +93,8 @@ Recommends:
  libreoffice-l10n-tr,
  plasma-nm,
  system-config-printer,
+ thunderbird,
+ thunderbird-l10n-tr,
  vlc
 Description: KDE based Pardus desktop
  This metapackage installs a KDE desktop on your Pardus system.
