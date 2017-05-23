@@ -1,3 +1,9 @@
+pardus-desktops (2017.1.4) pardus; urgency=medium
+
+  * Add galculator in recommends sections for xfce desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 23 May 2017 17:23:22 +0300
+
 pardus-desktops (2017.1.3) pardus; urgency=medium
 
   * Add desktop notification tool for updates on XFCE
