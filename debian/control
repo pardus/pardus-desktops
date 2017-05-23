@@ -62,6 +62,7 @@ Depends: ${misc:Depends},
 Recommends:
  catfish,
  cups,
+ galculator,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  libreoffice,
