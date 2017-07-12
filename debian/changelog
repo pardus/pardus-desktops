@@ -1,3 +1,9 @@
+pardus-desktops (2017.1.5) onyedi; urgency=medium
+
+  * Add gnome-system-tools for xfce-desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 12 Jul 2017 10:57:03 +0300
+
 pardus-desktops (2017.1.4) pardus; urgency=medium
 
   * Add galculator in recommends sections for xfce desktop
