@@ -11,11 +11,11 @@ Architecture: any
 Depends: ${misc:Depends},
  dbus-user-session,
  desktop-base,
+ driver-manager,
  firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any,
  firefox-esr-l10n-tr,
  pardus-archive-keyring,
  pardus-x11-settings,
- tlp,
  xorg,
  xserver-xorg-input-all,
  xserver-xorg-legacy,
@@ -26,6 +26,7 @@ Recommends:
  iw,
  plymouth,
  plymouth-themes,
+ tlp,
  xdg-utils
 Description: Meta-package with dependencies common to all desktops provided by Pardus
  This metapackage depends on Pardus packages that should be intalled on all
@@ -87,7 +88,7 @@ Depends: ${misc:Depends},
  pardus-common-desktop,
  pardus-kde-settings, 
 Recommends: 
- cups, 
+ cups,
  k3b,
  k3b-i18n,
  kdesudo,
@@ -101,3 +102,29 @@ Recommends:
  vlc
 Description: KDE based Pardus desktop
  This metapackage installs a KDE desktop on your Pardus system.
+ 
+Package: pardus-dde-desktop
+Architecture: any
+Depends: ${misc:Depends}, 
+ dde,
+ deepin-gtk-theme,
+ deepin-music,
+ deepin-wallpapers,
+ gnome-themes-standard,
+ gtk2-engines-pixbuf,
+ gtk2-engines-murrine,
+ lightdm,
+ pardus-common-desktop,
+ pardus-kde-settings,
+Recommends:
+ evince,
+ gnome-calculator,
+ gksudo,
+ libreoffice,
+ libreoffice-gtk2,
+ libreoffice-l10n-tr, 
+ system-config-printer,
+ thunderbird,
+ thunderbird-l10n-tr
+Description: DDE based Pardus desktop
+ This metapackage installs a Deepin desktop on your Pardus system.
