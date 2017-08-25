@@ -1,3 +1,9 @@
+pardus-desktops (2017.1.6) onyedi; urgency=medium
+
+  * Add pardus-dde-desktop package and make changes in common desktop package
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Fri, 25 Aug 2017 17:06:42 +0300
+
 pardus-desktops (2017.1.5) onyedi; urgency=medium
 
   * Add gnome-system-tools for xfce-desktop
