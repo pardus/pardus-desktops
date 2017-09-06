@@ -1,3 +1,9 @@
+pardus-desktops (2017.1.7) onyedi; urgency=medium
+
+  * Update pardus-dde-desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 06 Sep 2017 14:46:13 +0300
+
 pardus-desktops (2017.1.6) onyedi; urgency=medium
 
   * Add pardus-dde-desktop package and make changes in common desktop package
