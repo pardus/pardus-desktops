@@ -107,24 +107,26 @@ Package: pardus-dde-desktop
 Architecture: any
 Depends: ${misc:Depends}, 
  dde,
+ deepin-deb-installer,
  deepin-gtk-theme,
  deepin-music,
  deepin-wallpapers,
+ gnome-disk-utility,
  gnome-themes-standard,
  gtk2-engines-pixbuf,
  gtk2-engines-murrine,
  lightdm,
  pardus-common-desktop,
- pardus-kde-settings,
 Recommends:
  evince,
+ evolution,
  gnome-calculator,
  gksudo,
+ gvfs-fuse,
  libreoffice,
  libreoffice-gtk2,
- libreoffice-l10n-tr, 
- system-config-printer,
- thunderbird,
- thunderbird-l10n-tr
+ libreoffice-l10n-tr,
+ mpv,
+ system-config-printer 
 Description: DDE based Pardus desktop
  This metapackage installs a Deepin desktop on your Pardus system.
