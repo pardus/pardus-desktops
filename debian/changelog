@@ -1,3 +1,9 @@
+pardus-desktops (2017.1.8) onyedi; urgency=medium
+
+  * Update pardus-dde-desktop and remove driver-manager from common desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 26 Sep 2017 10:59:59 +0300
+
 pardus-desktops (2017.1.7) onyedi; urgency=medium
 
   * Update pardus-dde-desktop
