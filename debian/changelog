@@ -1,3 +1,9 @@
+pardus-desktops (2018.1.1) onyedi; urgency=medium
+
+  * Add pardus-imagewriter into recommends
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 02 Jan 2018 11:20:20 +0300
+
 pardus-desktops (2017.1.8) onyedi; urgency=medium
 
   * Update pardus-dde-desktop and remove driver-manager from common desktop
