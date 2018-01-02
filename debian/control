@@ -119,6 +119,7 @@ Recommends:
  libreoffice-gtk2,
  libreoffice-l10n-tr,
  mpv,
+ pardus-imagewriter,
  system-config-printer 
 Description: DDE based Pardus desktop
  This metapackage installs a Deepin desktop on your Pardus system.
