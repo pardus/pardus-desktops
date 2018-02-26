@@ -1,3 +1,9 @@
+pardus-desktops (2018.1.2) onyedi; urgency=medium
+
+  * Move firefox-esr to recommends and update gtk package of libreoffice
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 26 Feb 2018 11:31:36 +0300
+
 pardus-desktops (2018.1.1) onyedi; urgency=medium
 
   * Add pardus-imagewriter into recommends
