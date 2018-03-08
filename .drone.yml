@@ -2,7 +2,7 @@ build:
   package:
     image: pardus/pardus-devel
     volumes:
-      - /tmp/packages:/packages
+      - /packages:/packages
     commands:
       - echo "TODO lintian -i /packages/$(basename $DRONE_REPO)/*.changes"
       - apt-get update
