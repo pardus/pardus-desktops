@@ -1,3 +1,13 @@
+pardus-desktops (2018.1.3) onyedi; urgency=medium
+
+  [ Cihangir Akturk ]
+  * ci: change artifact location to /packages
+
+  [ Yunusemre Şentürk ]
+  * Move evince and gnome disks to recommends section in pardus-xfce-desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 30 Apr 2018 10:37:09 +0300
+
 pardus-desktops (2018.1.2) onyedi; urgency=medium
 
   * Move firefox-esr to recommends and update gtk package of libreoffice
