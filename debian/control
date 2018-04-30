@@ -38,8 +38,6 @@ Package: pardus-xfce-desktop
 Architecture: any
 Depends: ${misc:Depends}, 
  default-dbus-session-bus | dbus-session-bus,
- evince-gtk | evince, 
- gnome-disk-utility,
  gnome-orca,
  gnome-system-tools,
  gvfs,
@@ -64,7 +62,9 @@ Depends: ${misc:Depends},
 Recommends:
  catfish,
  cups,
+ evince-gtk | evince, 
  galculator,
+ gnome-disk-utility,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  libreoffice,
