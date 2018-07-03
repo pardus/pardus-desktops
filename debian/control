@@ -72,6 +72,7 @@ Recommends:
  libreoffice-l10n-tr,
  mousepad,
  mugshot,
+ pardus-store,
  synaptic,
  thunderbird,
  thunderbird-l10n-tr,
@@ -95,6 +96,8 @@ Recommends:
  libreoffice,
  libreoffice-gtk2,
  libreoffice-l10n-tr,
+ pardus-imagewriter,
+ pardus-store,
  plasma-nm,
  system-config-printer,
  thunderbird,
@@ -120,6 +123,7 @@ Recommends:
  libreoffice-l10n-tr,
  mpv,
  pardus-imagewriter,
+ pardus-store,
  system-config-printer 
 Description: DDE based Pardus desktop
  This metapackage installs a Deepin desktop on your Pardus system.
