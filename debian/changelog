@@ -1,3 +1,9 @@
+pardus-desktops (2019.1.1) ondokuz; urgency=medium
+
+  * Update gnome-desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 10 Apr 2019 17:11:45 +0300
+
 pardus-desktops (2019.1.0) ondokuz; urgency=medium
 
   * Change artifact location and itself
