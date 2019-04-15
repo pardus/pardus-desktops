@@ -1,3 +1,10 @@
+pardus-desktops (2019.1.2) ondokuz; urgency=medium
+
+  * Update test step on artifact
+  * Move pardus-backagrounds to common-desktop and update control file
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Mon, 15 Apr 2019 13:15:28 +0300
+
 pardus-desktops (2019.1.1) ondokuz; urgency=medium
 
   * Update gnome-desktop
