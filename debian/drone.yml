@@ -38,5 +38,4 @@ steps:
   - id
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - dpkg -i /packages/$DRONE_REPO_NAME/*.deb || apt-get install -fy
-  - dpkg -i /packages/$DRONE_REPO_NAME/*.deb 
+  - apt-get install -fy /packages/$DRONE_REPO_NAME/*.deb
