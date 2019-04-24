@@ -1,3 +1,9 @@
+pardus-desktops (2019.1.3) ondokuz; urgency=medium
+
+  * Add pardus-store to gnome and change pk-update-icon to package-update-indicator in xfce
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 24 Apr 2019 10:39:27 +0300
+
 pardus-desktops (2019.1.2) ondokuz; urgency=medium
 
   * Update test step on artifact
