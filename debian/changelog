@@ -1,3 +1,9 @@
+pardus-desktops (2019.1.4) ondokuz; urgency=medium
+
+  * Add pardus-gnome-settings to depends of pardus-gnome-desktop
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Tue, 30 Apr 2019 16:59:40 +0300
+
 pardus-desktops (2019.1.3) ondokuz; urgency=medium
 
   * Add pardus-store to gnome and change pk-update-icon to package-update-indicator in xfce
