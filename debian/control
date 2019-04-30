@@ -47,6 +47,7 @@ Depends: ${misc:Depends},
  gnome-tweak-tool,
  gnome-orca,
  pardus-common-desktop,
+ pardus-gnome-settings,
 Recommends:
  cups,
  libreoffice,
