@@ -1,3 +1,10 @@
+pardus-desktops (2019.1.6) ondokuz; urgency=medium
+
+  * Add evolution to xfce-desktop
+  * Add pardus-xfce-icon-theme-metal to xfce-desktop
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 02 Aug 2019 16:55:44 +0300
+
 pardus-desktops (2019.1.5) ondokuz; urgency=medium
 
   [ Fatih Altun ]
