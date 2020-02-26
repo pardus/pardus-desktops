@@ -1,3 +1,9 @@
+pardus-desktops (2019.1.8) ondokuz; urgency=medium
+
+  * Add pdebi,blueman,hunspell-tr
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 26 Feb 2020 14:23:45 +0300
+
 pardus-desktops (2019.1.7) ondokuz; urgency=medium
 
   * Add pinta, gimp, gnome-shell-extension-apt-update-indicator
