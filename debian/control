@@ -1,7 +1,7 @@
 Source: pardus-desktops
 Section: metapackages
 Priority: optional
-Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
 Build-Depends: debhelper (>=10)
 Standards-Version: 4.2.1
 Homepage: http://www.pardus.org.tr
@@ -50,15 +50,20 @@ Depends: ${misc:Depends},
  pardus-common-desktop,
  pardus-gnome-settings,
 Recommends:
+ brasero,
  cups,
+ evolution,
  hunspell-tr,
  gdebi,
  gimp,
+ gnome-screenshot,
  libreoffice,
+ libreoffice-gnome,
  libreoffice-gtk3,
  libreoffice-l10n-tr,
+ pardus-image-writer,
+ pardus-package-installer,
  pardus-store,
- pdebi,
  pinta,
  rar,
  synaptic,
@@ -102,19 +107,22 @@ Recommends:
  evolution,
  file-roller,
  galculator,
+ gdebi,
  gimp,
  gnome-disk-utility,
  hunspell-tr,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  libreoffice,
+ libreoffice-gnome,
  libreoffice-gtk3,
  libreoffice-l10n-tr,
  mousepad,
  mugshot,
+ pardus-image-writer,
+ pardus-package-installer,
  pardus-store,
  pardus-xfce-icon-theme-metal,
- pdebi,
  pinta,
  rar,
  synaptic,
