@@ -1,10 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: pardus-desktops
-Upstream-Contact: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Upstream-Contact: Fatih Altun <fatih.altun@pardus.org.tr>
 
 
 Files: *
-Copyright: 2016, Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Copyright: 2020, Fatih Altun <fatih.altun@pardus.org.tr>
 License: GPL-3.0+
 
 License: GPL-3.0+
