@@ -1,3 +1,12 @@
+pardus-desktops (2020.1.0) ondokuz; urgency=medium
+
+  * Add some applications for 19.3 (SY-58)
+  * Update debian files
+  * Remove deepin-deb-installer from xfce desktop
+  * Add gnome-shell-extension-restart-shell to pardus-gnome-desktop
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 02 Jul 2020 17:19:43 +0300
+
 pardus-desktops (2019.1.8) ondokuz; urgency=medium
 
   * Add pdebi,blueman,hunspell-tr
