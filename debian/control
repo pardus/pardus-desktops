@@ -102,7 +102,6 @@ Recommends:
  blueman,
  catfish,
  cups,
- deepin-deb-installer,
  evince-gtk | evince,
  evolution,
  file-roller,
