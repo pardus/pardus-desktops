@@ -1,3 +1,11 @@
+pardus-desktops (2021.1.0) ondokuz; urgency=medium
+
+  * Add arc-menu extension to gnome and Update dash, desktop-icons gnome extensions
+  * Add pardus-about to recommends
+  * Add pardus-configure to recommends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 21 Dec 2020 13:04:16 +0300
+
 pardus-desktops (2020.1.1) ondokuz; urgency=medium
 
   * Add pardus-java-installer, pardus-usb-formatter to xfce and gnome desktop
