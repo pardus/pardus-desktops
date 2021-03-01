@@ -1,3 +1,9 @@
+pardus-desktops (2021.1.1) ondokuz; urgency=medium
+
+  * Add top-icons-plus extension to gnome
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 01 Mar 2021 17:26:58 +0300
+
 pardus-desktops (2021.1.0) ondokuz; urgency=medium
 
   * Add arc-menu extension to gnome and Update dash, desktop-icons gnome extensions
