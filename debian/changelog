@@ -1,3 +1,9 @@
+pardus-desktops (2021.1.2~alpha2) yirmibir; urgency=medium
+
+  * Update apps on common and xfce
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 16 Jun 2021 22:40:45 +0300
+
 pardus-desktops (2021.1.2~alpha1) yirmibir; urgency=medium
 
   * Update apps on xfce
