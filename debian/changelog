@@ -1,3 +1,9 @@
+pardus-desktops (2021.7.0) yirmibir; urgency=medium
+
+  * Update gnome apps and rm conky
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Thu, 01 Jul 2021 19:08:09 +0300
+
 pardus-desktops (2021.1.2~alpha2) yirmibir; urgency=medium
 
   * Update apps on common and xfce
