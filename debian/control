@@ -7,7 +7,7 @@ Standards-Version: 4.2.1
 Homepage: http://www.pardus.org.tr
 
 Package: pardus-common-desktop
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends},
  dbus-user-session,
  desktop-base, 
@@ -42,7 +42,7 @@ Description: Meta-package with dependencies common to all desktops provided by P
 
 
 Package: pardus-gnome-desktop
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, 
  default-dbus-session-bus | dbus-session-bus,
  file-roller,
@@ -91,7 +91,7 @@ Description: GNOME based Pardus desktop
  This metapackage installs a GNOME desktop on your Pardus system.
 
 Package: pardus-xfce-desktop
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends},
  default-dbus-session-bus | dbus-session-bus,
  gnome-orca,
