@@ -26,6 +26,7 @@ Recommends:
  iw,
  net-tools,
  pardus-backgrounds,
+ pardus-gtk-theme,
  pardus-icon-theme,
  pardus-dolunay-grub-theme,
  plymouth,
