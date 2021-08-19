@@ -1,3 +1,10 @@
+pardus-desktops (2021.8.0) yirmibir; urgency=medium
+
+  * Update pardus-dolunay-icon-theme as pardus-icon-theme
+  * Add pardus-gtk-theme to Recommends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Fri, 20 Aug 2021 00:24:27 +0300
+
 pardus-desktops (2021.7.1) yirmibir; urgency=medium
 
   * Update Architecture as all
