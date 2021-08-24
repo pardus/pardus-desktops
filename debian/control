@@ -73,6 +73,7 @@ Recommends:
  libreoffice-gnome,
  libreoffice-gtk3,
  libreoffice-l10n-tr,
+ malcontent,
  pardus-about,
  pardus-configure,
  pardus-image-writer,
