@@ -1,3 +1,9 @@
+pardus-desktops (2021.8.1) yirmibir; urgency=medium
+
+  * Add malcontent to gnome desktop
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Tue, 24 Aug 2021 18:36:29 +0300
+
 pardus-desktops (2021.8.0) yirmibir; urgency=medium
 
   * Update pardus-dolunay-icon-theme as pardus-icon-theme
