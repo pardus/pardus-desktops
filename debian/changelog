@@ -1,3 +1,9 @@
+pardus-desktops (2021.12.0) yirmibir; urgency=medium
+
+  * Add pardus-locales to common recommends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 20 Dec 2021 19:43:28 +0300
+
 pardus-desktops (2021.10.0) yirmibir; urgency=medium
 
   * Rm pinta
