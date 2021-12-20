@@ -29,6 +29,7 @@ Recommends:
  pardus-gtk-theme,
  pardus-icon-theme,
  pardus-dolunay-grub-theme,
+ pardus-locales,
  plymouth,
  plymouth-themes,
  tlp,
