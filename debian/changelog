@@ -1,3 +1,9 @@
+pardus-desktops (2022.1.0) yirmibir; urgency=medium
+
+  * Update depends and Add audacious, baobab, gnome-calculator, printer-driver-all, simple-scan
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 09 Feb 2022 18:00:27 +0300
+
 pardus-desktops (2021.12.0) yirmibir; urgency=medium
 
   * Add pardus-locales to common recommends
