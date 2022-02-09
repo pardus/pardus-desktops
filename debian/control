@@ -32,6 +32,7 @@ Recommends:
  pardus-locales,
  plymouth,
  plymouth-themes,
+ printer-driver-all,
  tlp,
  tree,
  webkit2gtk-driver,
@@ -52,13 +53,6 @@ Depends: ${misc:Depends},
  file-roller,
  gedit,
  gnome-core,
- gnome-shell-extension-arc-menu,
- gnome-shell-extension-apt-update-indicator,
- gnome-shell-extension-dashtodock,
- gnome-shell-extension-desktop-icons-ng,
- gnome-shell-extension-remove-dropdown-arrows,
- gnome-shell-extension-restart-shell,
- gnome-shell-extension-top-icons-plus,
  gnome-tweak-tool,
  gnome-orca,
  pardus-common-desktop,
@@ -72,6 +66,13 @@ Recommends:
  gdebi,
  gimp,
  gnome-screenshot,
+ gnome-shell-extension-arc-menu,
+ gnome-shell-extension-apt-update-indicator,
+ gnome-shell-extension-dashtodock,
+ gnome-shell-extension-desktop-icons-ng,
+ gnome-shell-extension-remove-dropdown-arrows,
+ gnome-shell-extension-restart-shell,
+ gnome-shell-extension-top-icons-plus,
  libreoffice,
  libreoffice-gnome,
  libreoffice-gtk3,
@@ -87,10 +88,12 @@ Recommends:
  pardus-software,
  pardus-welcome,
  rar,
+ simple-scan,
  synaptic,
+ vlc,
+Suggests:
  thunderbird,
- thunderbird-l10n-tr,
- vlc
+ thunderbird-l10n-tr
 Description: GNOME based Pardus desktop
  This metapackage installs a GNOME desktop on your Pardus system.
 
@@ -118,9 +121,10 @@ Depends: ${misc:Depends},
  xfce4-power-manager-plugins,
  xfce4-terminal,
  xfce4-whiskermenu-plugin,
- xsane,
 Recommends:
  alsa-utils,
+ audacious,
+ baobab,
  blueman,
  catfish,
  cups,
@@ -128,9 +132,9 @@ Recommends:
  evince-gtk | evince,
  evolution,
  file-roller,
- galculator,
  gdebi,
  gimp,
+ gnome-calculator,
  gnome-disk-utility,
  hunspell-tr,
  libcanberra-gtk3-module,
@@ -151,9 +155,12 @@ Recommends:
  pardus-software,
  pardus-welcome,
  rar,
+ simple-scan,
  synaptic,
+ vlc,
+Suggests:
  thunderbird,
  thunderbird-l10n-tr,
- vlc
+ xsane
 Description: Xfce based Pardus desktop
  This metapackage installs a Xfce desktop on your Pardus system.
