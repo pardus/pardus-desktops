@@ -158,6 +158,7 @@ Recommends:
  simple-scan,
  synaptic,
  vlc,
+ xfce4-notes-plugin,
 Suggests:
  thunderbird,
  thunderbird-l10n-tr,
