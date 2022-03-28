@@ -89,6 +89,7 @@ Recommends:
  pardus-welcome,
  rar,
  simple-scan,
+ sticky,
  synaptic,
  vlc,
 Suggests:
@@ -156,9 +157,9 @@ Recommends:
  pardus-welcome,
  rar,
  simple-scan,
+ sticky,
  synaptic,
  vlc,
- xfce4-notes-plugin,
 Suggests:
  thunderbird,
  thunderbird-l10n-tr,
