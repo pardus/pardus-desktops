@@ -36,6 +36,7 @@ Recommends:
  tlp,
  tree,
  webkit2gtk-driver,
+ xapp,
  xdg-utils,
 Breaks:
  pardus-store
