@@ -1,3 +1,11 @@
+pardus-desktops (2022.3.0) yirmibir; urgency=medium
+
+  * Update file-roller, gnome-orca, gnome-tweak-tool as Recommends
+  * Add xfce4-notes-plugin to xfce desktop recommends
+  * Add sticky to recommends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 28 Mar 2022 12:11:53 +0300
+
 pardus-desktops (2022.1.0) yirmibir; urgency=medium
 
   * Update depends and Add audacious, baobab, gnome-calculator, printer-driver-all, simple-scan
