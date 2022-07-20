@@ -62,7 +62,6 @@ Recommends:
  evolution,
  file-roller,
  hunspell-tr,
- gdebi,
  gimp,
  gnome-orca,
  gnome-screenshot,
@@ -93,6 +92,7 @@ Recommends:
  synaptic,
  vlc,
 Suggests:
+ gdebi,
  thunderbird,
  thunderbird-l10n-tr
 Description: GNOME based Pardus desktop
@@ -132,7 +132,6 @@ Recommends:
  evince-gtk | evince,
  evolution,
  file-roller,
- gdebi,
  gimp,
  gnome-calculator,
  gnome-disk-utility,
@@ -161,6 +160,7 @@ Recommends:
  synaptic,
  vlc,
 Suggests:
+ gdebi,
  thunderbird,
  thunderbird-l10n-tr,
  xsane
