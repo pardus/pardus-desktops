@@ -151,6 +151,7 @@ Recommends:
  pardus-configure,
  pardus-image-writer,
  pardus-java-installer,
+ pardus-lightdm-greeter,
  pardus-mycomputer,
  pardus-package-installer,
  pardus-power-manager,
