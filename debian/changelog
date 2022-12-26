@@ -1,3 +1,10 @@
+pardus-desktops (2022.4.0) yirmibir; urgency=medium
+
+  * Add command-not-found, pardus-mycomputer to Recommends
+  * Add pardus-lightdm-greeter to xfce desktop
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 26 Dec 2022 18:24:18 +0300
+
 pardus-desktops (2022.3.2) yirmibir; urgency=medium
 
   * Update gdebi as Suggests
