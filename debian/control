@@ -37,6 +37,7 @@ Recommends:
  tlp,
  tree,
  webkit2gtk-driver,
+ webp-pixbuf-loader,
  xapp,
  xdg-utils,
 Breaks:
