@@ -2,58 +2,61 @@ Source: pardus-desktops
 Section: metapackages
 Priority: optional
 Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
-Build-Depends: debhelper (>=10)
-Standards-Version: 4.2.1
-Homepage: http://www.pardus.org.tr
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/pardus/pardus-desktops
 
 Package: pardus-common-desktop
 Architecture: all
 Depends: ${misc:Depends},
+ dbus-session-bus-common,
  dbus-user-session,
+ dbus-x11,
  desktop-base,
+ gvfs,
+ gvfs-backends,
+ gvfs-fuse,
  pardus-archive-keyring,
  xorg,
  xserver-xorg-input-all,
  xserver-xorg-legacy,
  xserver-xorg-video-all,
 Recommends:
+ btrfs-progs,
  command-not-found,
+ curl,
  dnsutils,
  eject,
- firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any,
+ f2fs-tools,
+ firefox-esr,
  firefox-esr-l10n-tr,
+ jfsutils,
  fzf,
  icedtea-netx,
  iw,
  net-tools,
  pardus-backgrounds,
- pardus-gtk-theme,
- pardus-icon-theme,
- pardus-dolunay-grub-theme,
+ pardus-ayyildiz-grub-theme,
  pardus-locales,
+ pipewire,
  plymouth,
  plymouth-themes,
  printer-driver-all,
- tlp,
  tree,
  webkit2gtk-driver,
  webp-pixbuf-loader,
  xapp,
  xdg-utils,
-Breaks:
- pardus-store
+ xfsprogs
 Description: Meta-package with dependencies common to all desktops provided by Pardus
  This metapackage depends on Pardus packages that should be intalled on all
  desktop installations of Pardus.
  .
  This metapackage is a dependency of all pardus-*-desktop packages.
 
-
 Package: pardus-gnome-desktop
 Architecture: all
 Depends: ${misc:Depends}, 
- default-dbus-session-bus | dbus-session-bus,
- gedit,
  gnome-core,
  pardus-common-desktop,
  pardus-gnome-settings,
@@ -65,65 +68,50 @@ Recommends:
  file-roller,
  hunspell-tr,
  gimp,
- gnome-orca,
+ gnome-consolse,
+ gnome-power-manager,
  gnome-screenshot,
- gnome-shell-extension-arc-menu,
- gnome-shell-extension-apt-update-indicator,
- gnome-shell-extension-dashtodock,
- gnome-shell-extension-desktop-icons-ng,
- gnome-shell-extension-remove-dropdown-arrows,
- gnome-shell-extension-restart-shell,
- gnome-shell-extension-top-icons-plus,
- gnome-tweak-tool,
+ gnome-text-editor,
+ gnome-tweaks,
+ libcanberra-gtk3-module,
  libreoffice,
  libreoffice-gnome,
  libreoffice-gtk3,
  libreoffice-l10n-tr,
  malcontent,
+ orca,
  pardus-about,
- pardus-configure,
  pardus-image-writer,
  pardus-java-installer,
  pardus-mycomputer,
  pardus-package-installer,
- pardus-power-manager,
+ pardus-update,
  pardus-usb-formatter,
  pardus-software,
- pardus-welcome,
+ pardus-gnome-greeter,
+ power-profiles-daemon,
  rar,
+ rhythmbox,
  simple-scan,
  synaptic,
- vlc,
-Suggests:
- gdebi,
- thunderbird,
- thunderbird-l10n-tr
+ vlc
 Description: GNOME based Pardus desktop
  This metapackage installs a GNOME desktop on your Pardus system.
 
 Package: pardus-xfce-desktop
 Architecture: all
 Depends: ${misc:Depends},
- default-dbus-session-bus | dbus-session-bus,
  gnome-system-tools,
- gvfs,
- gvfs-backends,
  lightdm,
  light-locker,
  network-manager-gnome,
  pardus-common-desktop,
  pardus-xfce-settings,
- package-update-indicator,
- software-properties-common,
  system-config-printer,
- thunar-archive-plugin,
  xfce4,
  xfce4-goodies,
- xfce4-places-plugin,
  xfce4-power-manager,
  xfce4-power-manager-plugins,
- xfce4-terminal,
- xfce4-whiskermenu-plugin,
 Recommends:
  alsa-utils,
  audacious,
@@ -132,16 +120,14 @@ Recommends:
  catfish,
  cups,
  drawing,
- evince-gtk | evince,
+ evince,
  evolution,
  file-roller,
  gimp,
  gnome-calculator,
  gnome-disk-utility,
- gnome-orca,
  hunspell-tr,
  libcanberra-gtk3-module,
- libcanberra-gtk-module,
  libreoffice,
  libreoffice-gnome,
  libreoffice-gtk3,
@@ -149,25 +135,24 @@ Recommends:
  mousepad,
  mugshot,
  pardus-about,
- pardus-configure,
  pardus-image-writer,
  pardus-java-installer,
  pardus-lightdm-greeter,
  pardus-mycomputer,
+ pardus-night-light,
  pardus-package-installer,
  pardus-power-manager,
+ pardus-update,
  pardus-usb-formatter,
  pardus-software,
- pardus-welcome,
+ pardus-xfce-greeter,
+ pardus-xfce-gtk-theme,
+ pardus-xfce-icon-theme,
+ pardus-xfce-tweaks,
  rar,
  simple-scan,
  sticky,
  synaptic,
- vlc,
-Suggests:
- gdebi,
- thunderbird,
- thunderbird-l10n-tr,
- xsane
+ vlc
 Description: Xfce based Pardus desktop
  This metapackage installs a Xfce desktop on your Pardus system.
