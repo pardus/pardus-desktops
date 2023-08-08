@@ -68,7 +68,7 @@ Recommends:
  file-roller,
  hunspell-tr,
  gimp,
- gnome-consolse,
+ gnome-console,
  gnome-power-manager,
  gnome-screenshot,
  gnome-text-editor,
