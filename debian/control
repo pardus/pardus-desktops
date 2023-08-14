@@ -103,6 +103,7 @@ Package: pardus-xfce-desktop
 Architecture: all
 Depends: ${misc:Depends},
  gnome-system-tools,
+ libglib2.0-bin,
  lightdm,
  light-locker,
  network-manager-gnome,
