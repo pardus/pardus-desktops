@@ -32,6 +32,7 @@ Recommends:
  firefox-esr-l10n-tr,
  jfsutils,
  fzf,
+ gir1.2-xapp-1.0,
  icedtea-netx,
  iw,
  net-tools,
@@ -42,10 +43,10 @@ Recommends:
  plymouth,
  plymouth-themes,
  printer-driver-all,
+ python3-xapp,
  tree,
  webkit2gtk-driver,
  webp-pixbuf-loader,
- xapp,
  xdg-utils,
  xfsprogs
 Description: Meta-package with dependencies common to all desktops provided by Pardus
