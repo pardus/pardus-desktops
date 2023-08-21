@@ -40,6 +40,7 @@ Recommends:
  pardus-backgrounds,
  pardus-ayyildiz-grub-theme,
  pardus-locales,
+ pardus-menus,
  pipewire,
  plymouth,
  plymouth-themes,
