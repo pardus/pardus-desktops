@@ -35,6 +35,7 @@ Recommends:
  gir1.2-xapp-1.0,
  icedtea-netx,
  iw,
+ lz4,
  net-tools,
  pardus-backgrounds,
  pardus-ayyildiz-grub-theme,
