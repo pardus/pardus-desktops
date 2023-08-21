@@ -1,3 +1,15 @@
+pardus-desktops (2023.0.0) yirmiuc; urgency=medium
+
+  * Update copyright
+  * Update app list for pardus 23
+  * Fix typo
+  * Update xapp package name
+  * Add missing libglib2.0-bin to xfce depends
+  * Add lz4 to common recommends
+  * Add pardus-menus to common recommends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Mon, 21 Aug 2023 17:36:19 +0300
+
 pardus-desktops (2022.4.1) yirmibir; urgency=medium
 
   * Add webp-pixbuf-loader to common recommends
