@@ -145,6 +145,7 @@ Recommends:
  pardus-image-writer,
  pardus-java-installer,
  pardus-lightdm-greeter,
+ pardus-lightdm-greeter-settings,
  pardus-mycomputer,
  pardus-night-light,
  pardus-package-installer,
