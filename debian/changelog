@@ -1,3 +1,10 @@
+pardus-desktops (2023.0.2) yirmiuc; urgency=medium
+
+  * Add pardus-gnome-shortcuts to gnome recommends
+  * Add pardus-lightdm-greeter-settings to xfce recommends
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 23 Aug 2023 15:39:32 +0300
+
 pardus-desktops (2023.0.1) yirmiuc; urgency=medium
 
   * Add pardus-font-manager to recommends
