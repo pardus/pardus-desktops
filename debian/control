@@ -93,6 +93,7 @@ Recommends:
  pardus-usb-formatter,
  pardus-software,
  pardus-gnome-greeter,
+ pardus-gnome-shortcuts,
  power-profiles-daemon,
  rar,
  rhythmbox,
